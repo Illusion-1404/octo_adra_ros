@@ -3,15 +3,15 @@ Assignment_Repo
 [TOC]
 
 1. Introduction
-This repository provides an adra server to connect the real adra and controll it by sending command, and publish the realtime data. The developing and testing environment are: Ubuntu 18.04 + ROS melodic.
+This repository provides an adra server to connect the real actuator and controll it by sending command, and publish the realtime data. The developing and testing environment are: Ubuntu 18.04 + ROS melodic.
 
-2. Getting started with 'adra_ros'
+2. Getting started with 'package'
 2.1 Create a catkin workspace
 If you already have a workspace, skip and move on to next part. Follow the instructions in this page. Please note that this readme instruction assumes the user continues to use '~/catkin_ws' as directory of the workspace.
 
 2.2 Obtain the package
 cd ~/catkin_ws/src
-git clone https://github.com/UmbraTek/adra_ros.git
+git clone 
 2.3 Install other dependent packages
 rosdep update
 rosdep check --from-paths . --ignore-src --rosdistro melodic
